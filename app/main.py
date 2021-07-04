@@ -42,7 +42,7 @@ songs = [
 
 {"name":"Need You","author":"if found","type":"Trap","image_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/952/325x325/need-you-1621951230-d2WKA4iTM3.jpg","file_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/952/need-you-1621951234-DdIeIyFtQ3.mp3", "rating": 3.7},
 
-{"name":"Wait For Me","author":"Micah Martin, Doctor Neiman","type":"Electronic","image_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/9…4291_4xlexrHwfP_Doctor-Neiman---Wait-For-Me-Artwork-2021.jpg","file_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/951/wait-for-me-1621612835-LSVlmFX5IJ.mp3", "rating": 2.9},
+{"name":"Wait For Me","author":"Micah Martin, Doctor Neiman","type":"Electronic","image_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/951/325x325/1622564291_4xlexrHwfP_Doctor-Neiman---Wait-For-Me-Artwork-2021.jpg","file_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/951/wait-for-me-1621612835-LSVlmFX5IJ.mp3", "rating": 2.9},
 
 {"name":"Game Over","author":"EMM, Egzod","type":"Trap","image_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/950/325x325/game-over-1621515630-RkJKCl3hXb.png","file_url":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/950/game-over-1621515634-QoO4gwi3Oq.mp3", "rating": 2.8},
 
