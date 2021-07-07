@@ -23,7 +23,7 @@ def read_root():
     return "Welcome to Musika-api"
 
 
-@app.get("/songs/{song_id}")
+@app.get("/song/{song_id}")
 def read_song(song_id: int):
     if song_id >= len(all_songs):
         raise HTTPException(status_code=404, detail="Item not found")
@@ -70,3 +70,19 @@ def list_trending_songs(page_number: int):
         ending_index = len(trending_songs)
 
     return trending_songs[starting_index:ending_index]
+
+@app.get("/songs/search")
+def search_songs(key_word: str):
+
+    word = key_word.lower()
+
+    if key_word is None or key_word == '':
+        raise HTTPException(status_code=400, detail="key_word shouldn't be empty")
+
+    results = []
+
+    for song in all_songs:
+        if word in song['name'].lower() or word in song['author'].lower() or word in song['type'].lower():
+            results.append(song)
+
+    return results
